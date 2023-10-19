@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'poppins',sans-serif;
 }
 body{
     background-repeat: no-repeat;
@@ -79,12 +79,14 @@ width: 100%;
  cursor: pointer;
    margin: 10px 20px;
   margin-top: 0%;
-    background-image: url("https://media.architecturaldigest.com/photos/6032b3c9a0b9bd2edd5510d1/1:1/w_2880,h_2880,c_limit/Hero_Soneva%20Jani%20Chapter%20Two%20by%20Aksham%20Abdul%20Ghadir.jpg");
+    background-image: url("https://content.tui.co.uk/adamtui/2021_12/7_13/878f7fde-84ca-4804-85a5-adf700e44176/LOC_MDV_shutterstock_1938868960WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)");
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
 
 }
+
+
 .card:hover{
 transform: translateY(-10px);
 }
@@ -93,12 +95,23 @@ transform: translateY(-10px);
     background-image: url(https://www.frommers.com/system/media_items/attachments/000/868/461/s980/Frommers-New-York-City-Getting-Around-1190x768.jpg?1647177178);
 }
 .card2{
-    background-image: url(https://images.musement.com/cover/0002/99/mexico-city-xl-jpg_header-198157.jpeg?w=1200&h=630&q=95&fit=crop);
+    background-image: url(https://static.toiimg.com/photo/msid-79608505,width-96,height-65.cms);
 }
 .card.h1{
-    font-size: xx-large;
+    font-size: 50%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     align-items: center;
     color: #75C3C2;
+}
+h1{
+    color: rgb(9, 10, 11);
+    size: 0cap;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+h2{
+    margin-left:30% ;
+    font-display: center;
+    display: flex;
 }
